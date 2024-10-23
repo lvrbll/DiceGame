@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5DC">
+    
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gra w kości. Autor: Imie i Nazwisko"
+        android:background="#A52A2A"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    
+    <Button
+        android:id="@+id/buttonThrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RZUĆ KOŚĆMI"
+        android:background="#D2691E"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            android:height="60dp"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            android:height="60dp"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            android:height="60dp"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            android:height="60dp"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            android:height="60dp"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/resultCurrent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wynik tego losowania: "/>
+
+    <TextView
+        android:id="@+id/resultGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wynik gry: " />
+
+    <TextView
+        android:id="@+id/throwCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liczba rzutów: 0 " />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESETUJ WYNIK"
+        android:background="#D2691E"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
